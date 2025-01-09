@@ -1,6 +1,36 @@
 body {
   margin: 0;
   height: 100vh;
+  width: 100%;
   background-color: rosybrown;
   font-family: "DM Serif Text", serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.odin {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: bisque;
+  width: 500px;
+  border-radius: 20px;
+  border: 2px solid white;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 20px;
+  border: 2px solid black;
+}
+
+.grid-main {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+  border-radius: 20px;
 }
